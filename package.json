@@ -1,0 +1,25 @@
+{
+  "name": "find-artikel",
+  "version": "0.0.8",
+  "description": "A library and CLI tool which finds artikels of German words.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/lib/index.js",
+    "start": "node src/lib/index.js"
+  },
+  "keywords": [
+    "find-artikel",
+    "artikel",
+    "german",
+    "learn-german"
+  ],
+  "author": "Kaan Gökdemir <kaangokdemir01@gmail.com> (https://kaangokdemir.com)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  },
+  "bin": {
+    "find-artikel": "src/lib/index.js"
+  }
+}
