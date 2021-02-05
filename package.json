@@ -1,6 +1,6 @@
 {
   "name": "find-artikel",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A library and CLI tool which finds artikels of German words.",
   "main": "src/index.js",
   "scripts": {
