@@ -1,4 +1,4 @@
-const convertGenderToArtikel = async (letter) => {
+export const convertGenderToArtikel = async (letter: string) => {
   switch (letter) {
     case 'm':
       return 'der'
@@ -12,5 +12,3 @@ const convertGenderToArtikel = async (letter) => {
       return undefined
   }
 }
-
-module.exports = convertGenderToArtikel

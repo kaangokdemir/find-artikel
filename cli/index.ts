@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 'use strict'
 
-const { convertGenderToArtikel, getGender } = require('../utils')
-const { helpText, getVersion } = require('../helpers')
+import { convertGenderToArtikel, getGender, helpText, getVersion } from '../src'
 
 const main = async () => {
   try {

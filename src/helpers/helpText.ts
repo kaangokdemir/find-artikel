@@ -1,4 +1,4 @@
-const helpText = () => {
+export const helpText = () => {
   console.log(
     `
 Commands: 
@@ -9,8 +9,6 @@ Commands:
   
 For More:
   Please visit https://github.com/kaangokdemir/find-artikel
-    `
+    `,
   )
 }
-
-module.exports = helpText
