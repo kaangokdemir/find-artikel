@@ -8,10 +8,14 @@
 
 ## CLI
 
+Installing this package globally adds `find-artikel`, `findartikel`and `fa`commands to your PATH. Use `-h`or `--h`flags for getting help and use `-v`or `--v`flags for versioning.
+
 ```bash
 npm i -g find-artikel
 
 find-artikel apfel # "der"
+findartikel auto # "das"
+fa brille # "die"
 ```
 
 ## Library
