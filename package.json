@@ -1,6 +1,6 @@
 {
   "name": "find-artikel",
-  "version": "0.1.8-test.0",
+  "version": "0.1.9",
   "description": "A library and CLI tool which finds artikels of German words.",
   "main": "dist/src/index.js",
   "scripts": {
@@ -19,7 +19,8 @@
   "author": "Kaan Gökdemir <kaangokdemir01@gmail.com> (https://kaangokdemir.com)",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
@@ -28,7 +29,6 @@
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
     "babel-jest": "^26.3.0",
-    "dotenv": "^8.2.0",
     "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-standard": "^14.1.1",
