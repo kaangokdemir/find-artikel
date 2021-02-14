@@ -1,8 +1,9 @@
 import axios from 'axios'
+const path = require('path')
 
-const BASE_URI = 'https://dictionary.yandex.net/api/v1/dicservice.json'
-const API_KEY =
-  'dict.1.1.20210203T215939Z.2821615ab5902e4c.a85334d1d0b70dba519445e6b36f1198d0d7e811'
+require('dotenv').config({ path: path.resolve(__dirname, '../../../.env') })
+
+const { BASE_URI, API_KEY } = process.env
 
 export const getGender = async (word: string) => {
   let RES
